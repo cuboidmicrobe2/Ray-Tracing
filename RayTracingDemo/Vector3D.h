@@ -1,5 +1,6 @@
 #pragma once
-#include <cmath>
+
+#include "MathFuncs.h"
 
 class Vector3D
 {
@@ -31,4 +32,8 @@ public:
 
 	double Length() const; // Return the length of the vector
 	void Normalize(); // Normalize the vector
+
+	inline double squared() {
+		return (*this) * (*this);
+	}
 };

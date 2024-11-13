@@ -8,6 +8,8 @@ class Sphere : public Shape
 {
 private:
 	// Add member variables and helper functions as you see fit
+	Vector3D center;
+	double radius;
 
 public:
 	// colour: Shape colour

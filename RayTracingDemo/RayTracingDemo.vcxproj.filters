@@ -107,5 +107,8 @@
     <ClInclude Include="Ray.h">
       <Filter>Header Files\Other</Filter>
     </ClInclude>
+    <ClInclude Include="MathFuncs.h">
+      <Filter>Header Files\Other</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

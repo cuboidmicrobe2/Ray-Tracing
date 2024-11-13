@@ -8,6 +8,8 @@ class Plane : public Shape
 {
 private:
 	// Add member variables and helper functions as you see fit
+	Vector3D point;
+	Vector3D normal;
 
 public:
 	// colour: Shape colour

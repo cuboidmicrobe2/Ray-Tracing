@@ -8,6 +8,13 @@ class OBB : public Shape
 {
 private:
 	// Add member variables and helper functions as you see fit
+ Vector3D center;
+ Vector3D u;
+ Vector3D v;
+ Vector3D w;
+ double width;
+ double height;
+ double depth;
 
 public:
 	// colour: Shape colour
